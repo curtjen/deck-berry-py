@@ -60,7 +60,7 @@ def json_data_in_db():
 
 def list_the_things():
   resp = db.list('test')
-  test.test(len(resp), 5, 'List call should show have the correct length (prefix key + keys from mock data)')
+  test.test(len(resp), 5, 'List call should have the correct length (prefix key + keys from mock data)')
   # print(resp)
   # for key in resp:
   #   print('{0}'.format(key))

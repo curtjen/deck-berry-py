@@ -1,7 +1,7 @@
 # ===== Make worky with apps libs =====
 import sys
-# this path is specific to Repl.it
-sys.path.insert(1, '/home/runner/deck-berry-py/lib')
+# -- Paths specific to Repl.it ---
+sys.path.insert(1, '/home/runner/deck-berry-py/deck_berry_py')
 
 # ===== Test Library =====
 def test(rec, expect, msg):
