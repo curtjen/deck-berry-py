@@ -1,2 +1,2 @@
 language = "bash"
-run = "python tests/_player.py"
+run = "python tests/_repl_db.py"
